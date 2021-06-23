@@ -1,0 +1,12 @@
+% Limites1
+% Alexander Martinez Cisneros
+% Fecha 23 de Junio del 2021
+% funcion 10-x [-3,3]
+
+clear
+x=[-3:1:3];
+y=(10-x);
+plot (x,y);
+title("Funcion f(x)=x+2 de -3 a 3 para x");
+xlabel("X");
+ylabel ("Y");
